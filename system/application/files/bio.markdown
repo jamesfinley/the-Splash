@@ -1,0 +1,1 @@
+Toby is the young pup of web designer <a href="http://twitter.com/thefinley">James Finley</a> and his gorgeous fianc&eacute;e, Nicole Spire. A Bichon Fris&eacute;, Toby was born April 28th, 2009. Playful and loving, he runs around his new apartment, playing with **tons** of toys and discovering new places to explore.

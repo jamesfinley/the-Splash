@@ -1,0 +1,210 @@
+* { margin: 0; padding: 0; }
+header, section, footer { display: block; }
+body {
+	background: #252525;
+	font: 13px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+br.clear {
+	clear: both;
+	}
+#container {
+	}
+header {
+	height: 75px;
+	background: #191919 url(../images/header_bg.png) repeat-x;
+	margin: 0 0 10px;
+	}
+ul#navigation {
+	position: relative;
+	width: 740px;
+	margin: 0 auto;
+	padding: 10px;
+	list-style: none;
+	}
+	ul#navigation li {
+	float: left;
+	}
+	ul#navigation li#logo {
+	text-indent: -9000px;
+	position: absolute;
+	top: 14px;
+	left: 10px;
+	width: 140px;
+	height: 52px;
+	background: url(../images/logo.png) no-repeat;
+	}
+	ul#navigation li#system_nav {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #fff;
+	}
+	ul#navigation li#system_nav a {
+	color: #b20f00;
+	}
+	ul#navigation li#system_nav a.selected {
+	padding: 3px;
+	-webkit-border-radius: 3px;
+	background: #b20f00;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .4);
+	-webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, .1);
+	}
+	ul#navigation li.nav_item a {
+	display: block;
+	position: absolute;
+	top: 35px;
+	right: 10px;
+	width: 110px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	text-indent: -9000px;
+	}
+	ul#navigation li.nav_item.selected a {
+	background-position: top center;
+	}
+	ul#navigation li.nav_item#add_project a {
+	right: 125px;
+	background-image: url(../images/add_project.png);
+	}
+	ul#navigation li.nav_item#view_projects a {
+	background-image: url(../images/view_projects.png);
+	}
+#site {
+	width: 740px;
+	margin: 0 auto;
+	padding: 10px;
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+	background: #fff;
+	}
+#site h2 {
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: #222;
+	}
+#site h3 {
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #222;
+	}
+#site h4 {
+	margin: 5px 0;
+	font-size: 14px;
+	color: #222;
+	}
+table {
+	width: 100%;
+	}
+table.small, form.small table {
+	width: 350px;
+	}
+table td {
+	vertical-align: top;
+	padding: 5px;
+	}
+form.small table {
+	border-top: 1px solid #aaa;
+	}
+table tr:nth-child(2n) td {
+	background: #eee;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	}
+table td.label {
+	width: 190px;
+	padding-top: 8px;
+	}
+form.small table td.label {
+	width: 130px;
+	padding-top: 8px;
+	}
+table td.name {
+	width: 100%;
+	}
+table td.field {
+	width: 530px;
+	}
+	form.small table td.field {
+	width: auto;
+	}
+	table td.field input[type=text], table td.field textarea, table td.field select {
+	width: 530px;
+	padding: 3px;
+	border: 1px solid #aaa;
+	outline: none;
+	font-size: 13px;
+	}
+	table td.field input[type=text]:focus, table td.field textarea:focus, table td.field select:focus {
+	background: #ffe;
+	}
+	table td.field input[type=text], table td.field textarea {
+	width: 524px;
+	max-width: 524px;
+	}
+	form.small table td.field input[type=text], form.small table td.field textarea {
+	width: 194px;
+	max-width: 194px;
+	}
+	form.small table td.field select {
+	width: 100%;
+	}
+	table td.field textarea {
+	height: 100px;
+	max-height: 200px;
+	}
+	table td[colspan='2'] {
+	text-align: right;
+	}
+table td.action {
+	text-align: center;
+	}
+	table td.action a {
+	padding: 3px 5px;
+	-webkit-border-radius: 3px;
+	background: #b20f00;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .4);
+	}
+	table td.action a:hover {
+	background: #601;
+	}
+div.prompt {
+	margin: 10px 20px;
+	padding: 10px;
+	border: 3px solid #222;
+	-webkit-border-radius: 10px;
+	font-size: 14px;
+	text-align: center;
+	}
+	div.prompt .note {
+	font-size: 12px;
+	color: #888;
+	}
+	div.prompt ul {
+	list-style: none;
+	padding: 10px 10px 0;
+	}
+	div.prompt ul li {
+	display: inline;
+	padding: 0 5px;
+	}
+	div.prompt ul li a {
+	padding: 5px 15px;
+	-webkit-border-radius: 5px;
+	background: #b20f00;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .7);
+	}
+	div.prompt ul li a:hover {
+	background: #601;
+	}
+section.module {
+	float: left;
+	margin: 0 2px;
+	padding: 0 8px;
+	}
